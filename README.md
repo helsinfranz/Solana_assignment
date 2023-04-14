@@ -1,58 +1,20 @@
-# Hello World
+# Solana_assignment
 
-This Solidity program is a simple "Hello World" program that demonstrates the basic syntax and functionality of the Solidity programming language. The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
+Using a self-created SPL token to mint NFTs in Candy Machine UI 
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract has a single function that returns the string "Hello World!". This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
+Creating an SPL token with name and Logo. Deploting your Candy Machine with all the NFT Collections in it.
+Then creating a UI that will use our created tokens in exchange for the NFT's minting
 
 ## Getting Started
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
-
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
-
-```javascript
-pragma solidity ^0.8.4;
-
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello World!";
-    }
-}
-
-```
-
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
-
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
-
-## Authors
-
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
-
+1. SPL Token Creation: In this we create a spl token that we are gonna use in further minting of NFTs, and naming it and giving it a logo as well.
+2. Candy Machine Deploy: Now we need to deploy the candy machine in the devnet with all the assets and their associated JSONs.
+3. Candy Machine UI: In this step we need to configure the UI with the deployed candy machine and then we can just connect our wallet and mint NFTs using our tokens.
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
-
-
-
-
-
-# Solana_assignment
-
-
-It has 3 steps as you can see the folders:
-
-
-1. SPL Token Creation: in this we create a spl token that we are gonna use in further minting of NFTs.
-
-2. Candy Machine Deploy: Now we need to deploy the candy machine in the devnet with all the assets and their associated JSONs.
-
-3. Candy Machine UI: In this step we need to configure the UI with the deployed candy machine and then we can just connect our wallet and mint NFTs using our tokens.
