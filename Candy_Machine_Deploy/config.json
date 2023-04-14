@@ -1,0 +1,19 @@
+{
+    "price": 0.5,
+    "number": 10,
+    "gatekeeper": null,
+    "solTreasuryAccount": null,
+    "splTokenAccount": "7adBWEH3cw1PFGMHvw1yCc7yJJKxuk1S1gTSmQyh75D3",
+    "splToken": "EBBxZe6MCM5yzV1pP4c3MAkXZDpdvjax6UiLDgFo78f8",
+    "goLiveDate": "27 July 2022 00:00:00 GMT",
+    "endSettings": null,
+    "whitelistMintSettings": null,
+    "hiddenSettings": null,
+    "storage": "arweave-sol",
+    "ipfsInfuraProjectId": null,
+    "ipfsInfuraSecret": null,
+    "nftStorageKey": null,
+    "awsS3Bucket": null,
+    "noRetainAuthority": false,
+    "noMutable": false
+}
